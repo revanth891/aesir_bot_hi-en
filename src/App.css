@@ -1,0 +1,45 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 200px;
+}
+span{
+  color: aliceblue;
+}
+button{
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(145, 108, 131);
+  box-shadow: 2p 2px 50px rgb(196, 94, 157);
+}
+
+#speak{
+  width: 300px;
+}
+
+p{
+  font-size: 2vmax;
+  color:white
+
+}
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px
+
+}
